@@ -5,8 +5,8 @@ class Angle():
     # It initializes all the attributes.
     def __init__(self):
         # Set degrees and minutes to 0
-        self.degrees = 0.0
-        self.minutes = 0.0
+        self.degrees = 00.00
+        self.minutes = 00.00
 
     # setDegrees method receives parameter degrees as number.
     # It divides received degree into degrees and minutes.
