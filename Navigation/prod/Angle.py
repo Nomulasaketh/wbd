@@ -39,6 +39,8 @@ class Angle():
             except ValueError as raisedException:
                 raise (ValueError("Angle.setDegrees:  Received degrees is not a valid number"))
     
+    
+    
     # setDegreesAndMinutes method receives angleString of type string.
     # It splits string with separator "d" and sets degrees and minutes.
     def setDegreesAndMinutes(self, angleString):
